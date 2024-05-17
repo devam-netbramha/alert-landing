@@ -1,0 +1,520 @@
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-6-0.woff2") format("woff2"), url("../fonts/2CA963-6-0.woff") format("woff"), url("../fonts/2CA963-6-0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-7-0.woff2") format("woff2"), url("../fonts/2CA963-7-0.woff") format("woff"), url("../fonts/2CA963-7-0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-0-0.woff2") format("woff2"), url("../fonts/2CA963-0-0.woff") format("woff"), url("../fonts/2CA963-0-0.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-1-0.woff2") format("woff2"), url("../fonts/2CA963-1-0.woff") format("woff"), url("../fonts/2CA963-1-0.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-3-0.woff2") format("woff2"), url("../fonts/2CA963-3-0.woff") format("woff"), url("../fonts/2CA963-3-0.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-5-0.woff2") format("woff2"), url("../fonts/2CA963-5-0.woff") format("woff"), url("../fonts/2CA963-5-0.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-9-0.woff2") format("woff2"), url("../fonts/2CA963-9-0.woff") format("woff"), url("../fonts/2CA963-9-0.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-B-0.woff2") format("woff2"), url("../fonts/2CA963-B-0.woff") format("woff"), url("../fonts/2CA963-B-0.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Support Older IE */
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-6-0.eot") format("embedded-opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-7-0.eot") format("embedded-opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-0-0.eot") format("embedded-opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-1-0.eot") format("embedded-opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-3-0.eot") format("embedded-opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-5-0.eot") format("embedded-opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-9-0.eot") format("embedded-opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-B-0.eot") format("embedded-opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Caps Needs to be a Separate Family */
+@font-face {
+  font-family: 'IntroCaps';
+  src: url("../fonts/2CA963-4-0.eot");
+  src: url("../fonts/2CA963-4-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-4-0.woff") format("woff"), url("../fonts/2CA963-4-0.woff2") format("woff2"), url("../fonts/2CA963-4-0.ttf") format("truetype"), url("../fonts/2CA963-4-0.svg#wf") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroCaps';
+  src: url("../fonts/2CA963-8-0.eot");
+  src: url("../fonts/2CA963-8-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-8-0.woff") format("woff"), url("../fonts/2CA963-8-0.woff2") format("woff2"), url("../fonts/2CA963-8-0.ttf") format("truetype"), url("../fonts/2CA963-8-0.svg#wf") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroCaps';
+  src: url("../fonts/2CA963-A-0.eot");
+  src: url("../fonts/2CA963-A-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-A-0.woff") format("woff"), url("../fonts/2CA963-A-0.woff2") format("woff2"), url("../fonts/2CA963-A-0.ttf") format("truetype"), url("../fonts/2CA963-A-0.svg#wf") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroCaps';
+  src: url("../fonts/2CA963-2-0.eot");
+  src: url("../fonts/2CA963-2-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-2-0.woff") format("woff"), url("../fonts/2CA963-2-0.woff2") format("woff2"), url("../fonts/2CA963-2-0.ttf") format("truetype"), url("../fonts/2CA963-2-0.svg#wf") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* New intro variations for the new consumer nav */
+@font-face {
+  font-family: "Intro Light W05";
+  src: url("../fonts/97e479cd-7898-467c-9075-82c1d8faa40c.woff2") format("woff2"), url("../fonts/6170170b-3d7c-4b22-b99e-51fdd74bc644.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Intro Regular W05";
+  src: url("../fonts/3212d085-bd6a-4e52-a1a3-41cf21fd5e97.woff2") format("woff2"), url("../fonts/59550b43-38c4-4a50-996a-3d9595e7c875.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Intro Condensed W05";
+  src: url("../fonts/ae71928a-4836-46d9-97e5-a02cfc9f4613.woff2") format("woff2"), url("../fonts/ddf60796-5158-422c-963e-95a36e536d3c.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.customBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 11px 20px;
+  text-align: center;
+  font-family: 'Intro';
+  font-size: 14px;
+  line-height: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.32px;
+  color: #2c2c2c;
+  text-transform: uppercase;
+  background-color: #FCD800;
+  border-radius: 25px;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+    color: #2c2c2c;
+  }
+
+  &--border {
+    background-color: #fff;
+    border: 2px solid #FCD800;
+  }
+}
+
+.planTable {
+  padding: 60px 0;
+
+  .section {
+    &-title {
+      font-family: 'Intro';
+      font-size: 28px;
+      line-height: 38px;
+      letter-spacing: 0.56px;
+      font-weight: 700;
+      text-transform: capitalize;
+      color: #262626;
+      margin-bottom: 16px;
+
+      .underline {
+        position: relative;
+
+        &::before {
+          position: absolute;
+          content: '';
+          left: 0;
+          right: 0;
+          bottom: 3px;
+          height: 6px;
+          background-color: #FCD800;
+          z-index: -1;
+        }
+      }
+    }
+
+    &-desc {
+      font-family: 'Intro';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0.32px;
+      color: #000;
+      margin-bottom: 0;
+    }
+  }
+
+  .benefit {
+    &-title {
+      font-family: 'Intro';
+      color: #262626;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0.32px;
+      margin-bottom: 8px;
+    }
+
+    &-list {
+      padding: 0;
+      list-style-type: none;
+      margin-bottom: 0;
+
+      @media(max-width: 992px) {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+
+        @media(max-width: 992px) {
+          max-width: 50%;
+          width: 100%;
+        }
+
+        svg {
+          width: 16px;
+          height: 16px;
+        }
+
+        span {
+          font-family: 'Intro';
+          color: #262626;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          letter-spacing: 0.32px;
+          padding-left: 12px;
+        }
+
+        &:not(:last-child) {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+
+  .plan {
+    &-card {
+      border: 1px solid #D9D9D9;
+      border-radius: 12px;
+      padding: 32px 20px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      @media(max-width: 992px) {
+        height: inherit;
+        margin-bottom: 16px;
+      }
+
+      &.yellow {
+        position: relative;
+        background-color: #FFF9D9;
+        border-color: #FCD800;
+
+        &:before {
+          content: '';
+          position: absolute;
+          background-image: url('../images/most-popular-chip.svg');
+          background-repeat: no-repeat;
+          background-size: contain;
+          right: -34px;
+          top: -34px;
+          width: 134px;
+          height: 134px;
+
+          @media(max-width: 992px) {
+            background-image: url('../images/most-popular-chip-mobile.svg');
+            top: 10px;
+            right: -10px;
+          }
+        }
+      }
+    }
+
+    &-title {
+      color: #595959;
+      font-family: 'Intro';
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0.36px;
+      margin-bottom: 8px;
+    }
+
+    &-price {
+      color: #262626;
+      font-family: 'Intro';
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -0.32px;
+      margin-bottom: 2px;
+    }
+
+    &-duration {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #262626;
+      font-family: 'Intro';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      margin-bottom: 30px;
+
+      @media(max-width: 992px) {
+        justify-content: flex-start;
+      }
+
+      .chips {
+        font-family: 'Intro';
+        text-align: center;
+        color: #2c2c2c;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 400;
+        background-color: #FDE866;
+        border-radius: 25px;
+        padding: 10px 12px;
+
+        @media(max-width: 992px) {
+          margin-left: 12px;
+        }
+      }
+    }
+
+    &-notes {
+      font-family: 'Intro';
+      color: #000;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22.4px;
+      letter-spacing: 0.32px;
+      margin-top: 8px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.cta {
+  p {
+    padding: 20px 0;
+    border-top: 2px solid #00a6ca;
+    border-bottom: 2px solid #00a6ca;
+    font-family: 'Intro';
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    margin-bottom: 0;
+    text-align: center;
+
+    a {
+      color: #005365;
+      text-decoration: underline;
+    }
+  }
+}
+
+.alert {
+  &-banner {
+    padding: 45px 0;
+    position: relative;
+
+    @media(max-width: 575px) {
+      padding-bottom: 450px;
+    }
+
+    &-title {
+      font-family: 'Intro';
+      font-size: 40px;
+      font-weight: 700;
+      color: #262626;
+      margin-bottom: 10px;
+
+      @media(max-width: 575px) {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 8px;
+        text-align: center;
+      }
+    }
+
+    &-desc {
+      font-family: 'Intro';
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      color: #595959;
+      margin-bottom: 32px;
+
+      @media(max-width: 575px) {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+    }
+
+    .btn-container {
+      @media(max-width: 575px) {
+        text-align: center;
+      }
+    }
+
+    .customBtn {
+      display: inline-block;
+      padding: 20px 40px;
+      line-height: 10px;
+    }
+
+    &-image {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+
+      @media(max-width: 768px) {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      @media(max-width: 575px) {
+        top: inherit;
+        left: 0;
+        transform: inherit;
+      }
+    }
+  }
+}
+
+.feature {
+  @media(max-width: 768px) {
+    margin-top: 40px;
+  }
+
+  &-text {
+    padding: 16px 80px;
+    background-color: #E6F6FA;
+    color: #000;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Intro';
+    margin-bottom: 0;
+
+    @media(max-width: 768px) {
+      padding: 16px;
+      font-size: 12px;
+    }
+
+    span {
+      font-weight: 600;
+      padding-left: 20px;
+
+      @media(max-width: 768px) {
+        display: block;
+        padding-left: 0;
+        padding-top: 8px;
+      }
+    }
+  }
+}
